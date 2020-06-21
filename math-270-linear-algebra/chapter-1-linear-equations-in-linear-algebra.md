@@ -160,5 +160,7 @@ x_5\\
 \end{bmatrix}
 $$
 
+## Vectors
 
+For the purposes of this class, a matrix with one column only is called a **vector**.
 
