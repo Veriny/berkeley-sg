@@ -202,3 +202,107 @@ With the above definition in mind, we realize that we can find out if a vector i
 Notation: We denote all linear combinations of vector u and vector v by Span{ u, v }
 {% endhint %}
 
+
+
+## Properties of Matrix Equations as Vector Equations
+
+The following four statements are logically equivalent. Meaning, if any one of them is true, all of them are true, and vice versa.
+
+* For each vector B in ℝ^m, the equation Ax = b has a solution.
+* Each B in ℝ^m is a linear combination of the columns of A
+* The columns of A span ℝ^m
+* A has a pivot in every row
+
+## Applications of Systems of Linear Equations
+
+There are a few applications of linear equations to take note of.
+
+#### Finding the center of mass
+
+Given n points \(x\_n, y\_n\) and n weights \(w\_n\) we can find the center of mass using vector equations as follows.
+
+$$
+\frac{1}{\sum m_n}
+\begin{bmatrix}
+m_1
+\begin{bmatrix}
+x_1\\
+y_1
+\end{bmatrix}
++
+m_2
+\begin{bmatrix}
+x_2\\
+y_2
+\end{bmatrix}+ ... 
+m_n
+\begin{bmatrix}
+x_n\\
+y_n
+\end{bmatrix}
+\end{bmatrix}
+$$
+
+You end up with a vector representing the position of the center of mass.
+
+#### Moving the center of mass
+
+If you want to add mass to a system so that the center of mass equals a point \(x\_f, y\_f\), it can be achieved by doing the following.
+
+$$
+\frac{1}{\sum m_n}
+\begin{bmatrix}
+(m_1+m_{1}^{additional})
+\begin{bmatrix}
+x_1\\
+y_1
+\end{bmatrix}
++
+(m_2+m_{2}^{additional})
+\begin{bmatrix}
+x_2\\
+y_2
+\end{bmatrix}+ ... 
+(m_n+m_{n}^{additional})
+\begin{bmatrix}
+x_n\\
+y_n
+\end{bmatrix}
+\end{bmatrix}\\=
+\begin{bmatrix}
+x_f\\
+y_f
+\end{bmatrix}\\
+m_{1}^{additional} + m_{2}^{additional} + m_{n}^{additional}=m^{\sum additional}
+$$
+
+Looks ugly, but if you simplify the first equation you will find that you can create a system of linear equations to determine the additional masses.
+
+#### The input-output production model
+
+The "equilibrium price" refers to a value that can be assigned to total outputs of various sections in such a way that the income of each sector balances the expenses.
+
+![Credit: Prof. Behrooz Shahrvini](../.gitbook/assets/screen-shot-2020-06-21-at-8.57.58-pm.png)
+
+When you solve this kind of model, you should always get a free variable. If you solve the system of linear equations you should find that you'll get a set of ratios which you can then use to solve for the desired value.
+
+#### Balancing Chemical Equations
+
+There isn't really a good way to format this in LaTeX so I will just use images again. 
+
+![Credit: Prof. Behrooz Shahrvini](../.gitbook/assets/screen-shot-2020-06-21-at-9.05.38-pm.png)
+
+From here, simply solve the system of linear equations by converting it into a matrix equation.
+
+## Ax = 0 — The Homogeneous System of Equations
+
+Ax = 0 always has a solution because x = 0 always works. This solution is called the **trivial solution.**
+
+A homogeneous system of equations can have a non-trivial solution if there is at least one free variable. The answer will be in the form Span{}.
+
+## Linear Dependance
+
+Think of linear dependance this way: when you have a free variable in a system of linear equations, the values of other variables, when solved, will **depend** on that free variable. 
+
+There are, however, some formal definitions.
+
