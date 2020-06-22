@@ -162,5 +162,43 @@ $$
 
 ## Vectors
 
-For the purposes of this class, a matrix with one column only is called a **vector**.
+For the purposes of this class, a matrix with one column only is called a **vector**. Matrix equations can be written as vector equations.
+
+$$
+\begin{bmatrix}
+1 & 0 & -5\\
+0 & 1 & 4\\
+\end{bmatrix}
+\begin{bmatrix}
+x_1\\
+x_2\\
+x_3\\
+\end{bmatrix}=
+x_1
+\begin{bmatrix}
+1\\
+0\\
+\end{bmatrix}+
+x_2
+\begin{bmatrix}
+0\\
+1\\
+\end{bmatrix}+ x_2
+\begin{bmatrix}
+-5\\
+4\\
+\end{bmatrix}
+$$
+
+When multiplying a matrix **A** by a vector **x**, there must the the same number of entries in the vector as there are columns in the matrix.
+
+{% hint style="info" %}
+If one vector is equal to the scalar multiples of other vectors, it is a defined as a **linear combination** of the two vectors.
+{% endhint %}
+
+With the above definition in mind, we realize that we can find out if a vector is a linear combination of another set of vectors using a matrix system of equations. If the resultant augmented matrix formed from the vectors is consistent then it is possible that it is a linear combination.
+
+{% hint style="info" %}
+Notation: We denote all linear combinations of vector u and vector v by Span{ u, v }
+{% endhint %}
 
