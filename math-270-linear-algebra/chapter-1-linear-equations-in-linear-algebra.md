@@ -306,3 +306,37 @@ Think of linear dependance this way: when you have a free variable in a system o
 
 There are, however, some formal definitions.
 
+* If the only solution to Ax = 0 is the trivial solution, the vectors are said to be linearly independent.  
+* Any set of vectors that contains the zero vectors as one of its vectors is linearly dependent.
+* Two vectors are linearly dependent of one is the multiple of the other.
+* An indexed set of vectors is linearly dependent if at least one of the vectors in S is a linear combination of the others.
+* If a set of vectors contains more vectors than there are entries in each vector, the set of vectors is linearly independent.
+
+## Transformations
+
+#### Important Theorem:
+
+Let T: R^n -&gt; R^m. There then exists a matrix A such that T\(x\) = Ax for all x in R^n. A is an m x n matrix whose jth column is the vector T\(e\_j\) where ej is the jth column of the identity matrix in R^n.
+
+{% hint style="info" %}
+The **n** in R^n refers to the number of dimensions — in layman's terms, the number of variables.
+{% endhint %}
+
+When you are finding the standard matrix for a given T, **your goal should always be to find the T\(e\) values and arranging them in \[T\(e\_1\), T\(e\_n\)\] form.**
+
+$$
+T
+\begin{bmatrix}
+a_1\\
+a_n
+\end{bmatrix}=
+T[a_1e_1 + a_ne_n]
+$$
+
+You will likely be given multiple examples of transformations, meaning you can apply the above equation to all examples and create a system of equations in order to determine all e\_n and determine the standard matrix.
+
+In regards to analyzing the standard matrix, there isn't much to note other than the following theorem.
+
+* A matrix transformation is **onto** if the standard matrix contains a pivot in every row.
+* A matrix transformation is 1-1 **one to one** if for every image in R^m there is only one vector in R^m that maps into that image. This simply means that the standard matrix contains no free variables.
+
