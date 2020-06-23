@@ -338,5 +338,5 @@ You will likely be given multiple examples of transformations, meaning you can a
 In regards to analyzing the standard matrix, there isn't much to note other than the following theorem.
 
 * A matrix transformation is **onto** if the standard matrix contains a pivot in every row.
-* A matrix transformation is 1-1 **one to one** if for every image in R^m there is only one vector in R^m that maps into that image. This simply means that the standard matrix contains no free variables.
+* A matrix transformation is 1-1 **one to one** if for every image in R^m there is only one or no  vector in R^m that maps into that image. This simply means that the standard matrix contains no free variables.
 
