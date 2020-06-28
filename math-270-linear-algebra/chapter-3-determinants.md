@@ -16,7 +16,21 @@ $$
 C_{ij}=(-1)^{i+j}det(A_{ij})
 $$
 
-where A\_ij is the **submatrix created by deleting the ith row and jth column of A.**
+where A\_ij is the **submatrix created by deleting the ith row and jth column of A.** As such, in the following example if A\_ij = 1, the following change would occur.
+
+$$
+Given A_{ij}=1\\
+\begin{bmatrix}
+\colorbox{red}{1} & \colorbox{red}2 & \colorbox{red}3\\
+\colorbox{red}4&5&6\\
+\colorbox{red}7&8&9
+\end{bmatrix}
+\Longrightarrow
+\begin{bmatrix}
+5&6\\
+8&9
+\end{bmatrix} = A_{ij}
+$$
 
 As for columns, it is given by this formula.
 
