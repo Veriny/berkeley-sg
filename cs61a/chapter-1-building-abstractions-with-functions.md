@@ -6,8 +6,6 @@ description: >-
 
 # Chapter 1: Building Abstractions with Functions
 
-**Note: This is meant to be a personal guide and as such there are things in the earlier chapters that I did not think were worth adding as they did not personally benefit my study. As such, the first few study guides should be approached as incomplete.**
-
 ### 1.2 — Elements of Programming 
 
 The first concept to grasp in programming is expressions, the most primitive of which is simply a number.
