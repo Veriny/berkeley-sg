@@ -48,7 +48,7 @@ For matrices larger than 3x3, you will need to compute the cofactor expression m
 
 ## Finding the Determinant II: The Diagonal Method
 
-The downward diagonal method is an alternative method of finding the determinant. 
+The downward diagonal method is an alternative method of finding the determinant for 3x3 matrices.
 
 ![Credit: Pearsons](../.gitbook/assets/screen-shot-2020-06-28-at-2.39.52-am.png)
 
