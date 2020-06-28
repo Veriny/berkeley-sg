@@ -62,7 +62,7 @@ Given A is a square matrix, and B is the matrix after the operations were perfor
 * If two rows are interchanged, then det B = det A \* -1
 * If a row is multiplied by scalar k, then det B = k \* det A.
 
-There are additional properties that do not involve row 
+There are additional properties that do not involve row operations.
 
 *  For all square matrices, the determinant of the transpose of A is equal to det A.
 * For two square matrices A and B, det AB = det A \* det B
