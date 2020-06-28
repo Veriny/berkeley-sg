@@ -11,6 +11,7 @@
 
 * [Math 270 — Overview](math-270-linear-algebra/math-270-overview.md)
 * [Chapter 1: Linear Equations in Linear Algebra](math-270-linear-algebra/chapter-1-linear-equations-in-linear-algebra.md)
+* [Chapter 2: Matrix Algebra](math-270-linear-algebra/chapter-2-matrix-algebra.md)
 
 ## Math 275 — Ordinary Differential Equations
 
