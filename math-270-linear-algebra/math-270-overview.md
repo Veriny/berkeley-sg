@@ -4,5 +4,11 @@ WARNING — These study guides are based on the CSM course, NOT Math 54. However
 
 {% page-ref page="chapter-1-linear-equations-in-linear-algebra.md" %}
 
+{% page-ref page="chapter-2-matrix-algebra.md" %}
+
+{% page-ref page="chapter-3-determinants.md" %}
+
+
+
 
 
