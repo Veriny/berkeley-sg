@@ -58,3 +58,39 @@ Suppose y\_0 is an equilibrium point of the differential equation dy/dt = f\(y\)
 * Where f' is greater than zero, than y\_0 is a source \(unstable\)
 * Where f' is zero, we need more information.
 
+## Slope Fields
+
+Creating slope fields is a way to geometrically represent the solution to a differential equation. It is essentially a field of minitangent lines representing the derivative for each \(y, t\) point.
+
+![The slope field for the differential equation dy/dt = y - t](../.gitbook/assets/screen-shot-2020-07-01-at-8.30.23-am.png)
+
+Note that if the right side of the differential equation only contains t, the slope at any point is the same as the slope at any point with the same t-coordinate. As for the autonomous equation where the right side only contains y, slope lines are parallel along each horizontal line.
+
+## Euler's Method
+
+Useful \(?\) for approximating solutions given a differential equation, an initial point, and a delta t. It uses the minitangent lines given by the slope field in order to approximate the solution curve.
+
+![Credit: Brown University](../.gitbook/assets/screen-shot-2020-07-01-at-8.41.11-am.png)
+
+The basic formula for computing y given the T step and the differential equation itself is as follows.
+
+$$
+y_{k+1}=y_k+f(t_k,y_k)\Delta t
+$$
+
+{% hint style="info" %}
+A smaller delta t can be used to reduce error.
+{% endhint %}
+
+## The Phase Line
+
+Recall that an autonomous differential equation is one that is expressed as a function of only the dependent variable y. Recall also the property that along horizontal lines, the minitangent lines created by the slope field of an autonomous function are parallel. 
+
+This means that the slope field is largely redundant, and all the information in the slope field can actually be represented by a single line. To draw a phase line, take the following steps.
+
+* Draw a vertical line
+* Mark the equilibrium points on the line with positions relative to each other
+* Where f\(y\) &gt; 0, draw lines pointing up and vice versa.
+
+
+
