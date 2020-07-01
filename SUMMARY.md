@@ -13,6 +13,7 @@
 * [Chapter 1: Linear Equations in Linear Algebra](math-270-linear-algebra/chapter-1-linear-equations-in-linear-algebra.md)
 * [Chapter 2: Matrix Algebra](math-270-linear-algebra/chapter-2-matrix-algebra.md)
 * [Chapter 3: Determinants](math-270-linear-algebra/chapter-3-determinants.md)
+* [Chapter 4: Vector Spaces](math-270-linear-algebra/chapter-4-vector-spaces.md)
 
 ## Math 275 — Ordinary Differential Equations
 

@@ -50,3 +50,11 @@ $$
 \frac{dF}{dt} = \gamma F + \delta RF
 $$
 
+## The Linearization Theorem
+
+Suppose y\_0 is an equilibrium point of the differential equation dy/dt = f\(y\) where f is continuously differentiable. 
+
+* Where f' is less than zero, then y\_0 is a sink \(stable\)
+* Where f' is greater than zero, than y\_0 is a source \(unstable\)
+* Where f' is zero, we need more information.
+
