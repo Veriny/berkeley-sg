@@ -7,6 +7,14 @@
 * [CS61A — Overview](cs61a/untitled.md)
 * [Chapter 1: Building Abstractions with Functions](cs61a/chapter-1-building-abstractions-with-functions.md)
 
+## CS61B
+
+* [CS61B — Overview](cs61b/cs61b-overview.md)
+
+## CS70
+
+* [CS70 — Overview](cs70/cs70-overview.md)
+
 ## MATH 270 — Linear Algebra
 
 * [Math 270 — Overview](math-270-linear-algebra/math-270-overview.md)

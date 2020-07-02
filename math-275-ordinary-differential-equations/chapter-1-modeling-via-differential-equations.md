@@ -92,5 +92,21 @@ This means that the slope field is largely redundant, and all the information in
 * Mark the equilibrium points on the line with positions relative to each other
 * Where f\(y\) &gt; 0, draw lines pointing up and vice versa.
 
+## Linear Differential Equations
 
+A differential equation is considered linear if it has the following form.
+
+$$
+\frac{dy}{dt}=a(t)y+b(t)
+$$
+
+a\(t\) and b\(t\) are arbitrary functions of t. If b\(t\) is zero, the differential equation is said to be homogeneous.
+
+The **linearity principle** states that any solution to a homogeneous equation multiplied by a constant is also a solution.
+
+$$
+\frac{dy_h}{dt}=k\frac{dy_h}{dt}
+$$
+
+The **extended linearity principle** states that the general solution of a non-homogenous equation is equivalent to the general solution of the associated homogenous equation and **one** solution of the non-homogeneous solution \(the so called particular solution\).  
 
