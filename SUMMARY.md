@@ -27,4 +27,5 @@
 
 * [Math 275 — Overview](math-275-ordinary-differential-equations/math-275-overview.md)
 * [Chapter 1: Modeling via Differential Equations](math-275-ordinary-differential-equations/chapter-1-modeling-via-differential-equations.md)
+* [Chapter 3: Linear Systems](math-275-ordinary-differential-equations/chapter-3-linear-systems.md)
 
