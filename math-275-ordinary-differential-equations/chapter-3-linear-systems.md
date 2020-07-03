@@ -69,7 +69,13 @@ In the context of differential equations, the determinant of the A matrix tells 
 
 A matrix with a determinant of zero is called a **degenerate matrix.** \(If you remember from linear algebra, this means that the inverse of the matrix in question does not exist.\)
 
-## The Linearity Principle
+## The Linearity Principle / The Principle of Superposition
 
+Note that the linearity principle relates to the axioms for existing in a vector space.
 
+* **Y**\(t\) is a solution of the system and k is any constant, k**Y**\(t\) is also a solution \(meaning that it is closed under scalar multiplication!\)
+* If **Y**\(t\)\_1 and **Y**\(t\)\_2 are solutions of the system than the sum of those solutions are also a solution.
+* Putting the two above principles together, k**Y**\(t\)\_1 + k**Y**\(t\)\_2 is also a solution.
+
+ 
 
