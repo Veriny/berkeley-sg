@@ -91,6 +91,10 @@ $$
 
 As well as in this form.
 
+$$
+[x]_c=P [C\Longleftarrow B][x]_b
+$$
+
 Which in our example is the following. So just matrix multiply it by b coordinate matrix and you get answer.
 
 $$
