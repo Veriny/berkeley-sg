@@ -114,6 +114,15 @@ $$
 P [C\Longleftarrow B]=P [B\Longleftarrow C]^{-1}
 $$
 
+Also keep the following relationship in mind.
+
+$$
+[C|B]\\
+[I|C\Longleftarrow B]
+$$
+
+After row reduce to find identity matrix, of course.
+
 ## Markov Chains
 
 First we need definition. A stochastic matrix is a matrix whose columns are probability columns. Meaning that the elements in the columns add up to one.
