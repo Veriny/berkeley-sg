@@ -89,6 +89,8 @@ $$
 P [C\Longleftarrow B]=[[b_1]_c, [b_2]_c]
 $$
 
+As well as in this form.
+
 Which in our example is the following. So just matrix multiply it by b coordinate matrix and you get answer.
 
 $$
