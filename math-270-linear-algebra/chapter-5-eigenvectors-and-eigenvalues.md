@@ -88,7 +88,7 @@ If an n x n matrix does not have n distinct values, it is not diagonalizable. Re
 
 Following are some important theorems to remember regarding eigenvectors, eigenvalues, and diagonal matrices.
 
-* The dimension of the eigenspace of A is less than the multiplicity \(that is, the highest degree\) of λ.
+* The dimension of the eigenspace of A is equal to the multiplicity \(that is, the highest degree\) of λ.
 * A is diagonalizable if the sum of the dimensions of all of the eigenspaces of A equals n.
 * If A is diagonalizable and $$B_k$$ is a basis for the eigenspace corresponding to λ\_k for each k, then the total collection of vectors in the sets B\_1, B\_2, B\_k forms an eigenvector basis for R^n.
 * The following holds true: 
