@@ -90,12 +90,30 @@ Following are some important theorems to remember regarding eigenvectors, eigenv
 
 * The dimension of the eigenspace of A is less than the multiplicity \(that is, the highest degree\) of λ.
 * A is diagonalizable if the sum of the dimensions of all of the eigenspaces of A equals n.
-* If A is diagonalizable and B\_k is a basis for the eigenspace corresponding to λ\_k for each k, then the total collection of vectors in the sets B\_1, B\_2, B\_k forms an eigenvector basis for R^n.
+* If A is diagonalizable and $$B_k$$ is a basis for the eigenspace corresponding to λ\_k for each k, then the total collection of vectors in the sets B\_1, B\_2, B\_k forms an eigenvector basis for R^n.
 * The following holds true: 
 
 $$
 A^k=PD^kP^{-1}
 $$
+
+* A square matrix is diagonalizable if $$A$$ has exactly $$n$$ linearly independent eigenvectors. That is, the sum of all the bases for all the eigenspaces equals $$n$$ ,
+* If 0 is an eigenvalue of $$A$$ , it is **not** invertible.
+* Given A is a 2 x 2 matrix with complex eigenvalues, then given $$\lambda=a-bi$$ , in the formula $$A=PCP^{-1}$$ 
+
+$$
+P=[Rv\ \ Imv]\\
+C=\begin{bmatrix}
+a&-b\\
+b&a
+\end{bmatrix}
+$$
+
+* When finding the eigenvectors for a complex eigenvalue, either the first or second row of $$[A-\lambda_1I | 0]$$ may be used.
+* Eigenvectors that correspond to distinct eigenvalues are linearly independent.
+* Eigenvectors for complex conjugate eigenvalues are also complex conjugates.
+
+
 
 
 
@@ -204,6 +222,14 @@ $$
 0&λ_2
 \end{bmatrix}
 $$
+
+{% hint style="danger" %}
+Note: when reorganizing matrix equations by moving matrices to one side or the other, if a matrix is right multiplied originally it must st right multiplied when moved to the other side, as well as vice versa.
+{% endhint %}
+
+## Angle of Rotation
+
+The angle of rotation $$\Phi$$ can be found with the equation $$\arctan{\frac{b}{a}}$$ .  If a = 0, you can still find the angle if you use $$\arcsin{b}$$ although make sure you divide out the scaling factor or you may run into some trouble.
 
  
 

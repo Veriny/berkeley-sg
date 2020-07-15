@@ -67,4 +67,5 @@ There are additional properties that do not involve row operations.
 *  For all square matrices, the determinant of the transpose of A is equal to det A.
 * For two square matrices A and B, det AB = det A \* det B
 * This go logically, but given k is constant, det kA = k det A.
+* $$det A^T=detA$$ 
 
