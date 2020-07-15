@@ -97,6 +97,7 @@ $$
 A^k=PD^kP^{-1}
 $$
 
+* In $$A=PDP^{-1},$$ the columns of P are the n Linearly independent eigenvectors of A as well as the diagonal entries of D being the corresponding eigenvalues of A.
 * A square matrix is diagonalizable if $$A$$ has exactly $$n$$ linearly independent eigenvectors. That is, the sum of all the bases for all the eigenspaces equals $$n$$ ,
 * If 0 is an eigenvalue of $$A$$ , it is **not** invertible.
 * Given A is a 2 x 2 matrix with complex eigenvalues, then given $$\lambda=a-bi$$ , in the formula $$A=PCP^{-1}$$ 
@@ -112,6 +113,7 @@ $$
 * When finding the eigenvectors for a complex eigenvalue, either the first or second row of $$[A-\lambda_1I | 0]$$ may be used.
 * Eigenvectors that correspond to distinct eigenvalues are linearly independent.
 * Eigenvectors for complex conjugate eigenvalues are also complex conjugates.
+* The matrix A is diagonalizable if the dimension of the eigenspace of each $$\lambda_k$$ is equal to the multiplicity of $$\lambda_k$$ 
 
 
 
