@@ -23,6 +23,7 @@
 * [Chapter 3: Determinants](math-270-linear-algebra/chapter-3-determinants.md)
 * [Chapter 4: Vector Spaces](math-270-linear-algebra/chapter-4-vector-spaces.md)
 * [Chapter 5: Eigenvectors and Eigenvalues](math-270-linear-algebra/chapter-5-eigenvectors-and-eigenvalues.md)
+* [Chapter 6: Projections and Orthogonality](math-270-linear-algebra/chapter-6-projections-and-orthogonality.md)
 
 ## Math 275 — Ordinary Differential Equations
 
