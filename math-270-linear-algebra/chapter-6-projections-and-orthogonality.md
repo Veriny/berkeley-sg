@@ -74,5 +74,61 @@ $$
 
 Let $$W$$be a subspace of $$R^n.$$ Then each $$y$$ in$$R^n$$can be expressed uniquely in the following form.
 
+$$
+y=\hat{y}+z
+$$
+
+where $$\hat{y}$$ is in $$W$$ and $$z$$ is in $$W^{\perp}.$$ Keeping in mind that  $$\{u_1, u_2, u_p\}$$ is an orthogonal basis for $$W$$, the following holds true.
+
+$$
+\hat{y}=\frac{y\cdot u_1}{u_1\cdot u_1}u_1+\frac{y\cdot u_2}{u_2\cdot u_2}u_2+\frac{y\cdot u_p}{u_p\cdot u_p}u_p
+$$
+
+And of course, $$z=y-\hat{y}.$$ 
+
+## The Best Approximation Theorem
+
+Given that $$W$$is a subspace of $$R^n,$$and $$y$$is any vector in $$R^n,$$and $$\hat{y}$$ being the orthogonal projection of $$y$$ onto $$W$$, $$\hat{y}$$is the closest point in $$W$$to$$y$$.
+
+## Properties of Orthonormal Matrices
+
+An orthonormal matrix is a matrix whose columns from an orthogonal basis in $$R^n$$and are all unit vectors \(meaning that each vector's magnitude is one\). Let's look at some theorems of orthonormal bases, given $$U$$ is an orthonormal matrix.
+
+$$
+U^{\intercal}U=I\\
+UU^{\intercal}=proj_w^y
+$$
+
+## The Gram-Schmidt Process
+
+The Gram-Schmidt process is a painful method of finding an orthonormal basis for a subspace. Given any basis for a nonzero subspace  $$W$$of $$R^n,$$the following holds true.
+
+$$
+v_1=x_1\\
+v_2=x_2-(\frac{x_2\cdot v_1}{v_1\cdot v_1}v_1)\\
+v_3=x_3-(\frac{x_3\cdot v_1}{v_1\cdot v_1}v_1+\frac{x_3\cdot v_2}{v_2\cdot v_2}v_2)\\
+v_p=x_p-(\frac{x_p\cdot v_1}{v_1\cdot v_1}v_1+\frac{x_p\cdot v_2}{v_2\cdot v_2}v_2+\frac{x_p\cdot v_p}{v_p\cdot v_p}v_p)
+$$
+
+## QR Decomposition
+
+A matrix A can be _decomposed_ into a product between orthonormal matrix Q and an upper triangular matrix R. The columns of Q can be found with the Gram-Schmidt process and can be turned into unit vectors.
+
+$$
+A=QR
+$$
+
+Well, we know Q is orthonormal, so we can rewrite this. Remember a property mentioned earlier, that $$U^{\intercal}U=I$$ where $$U$$ is orthonormal. Therefore, we can rewrite the above equation like so.
+
+$$
+Q^{\intercal}A=Q^{\intercal}QR
+$$
+
+Which simplifies to
+
+$$
+Q^{\intercal}A=IR\Longrightarrow Q^{\intercal}A=R
+$$
+
 
 
