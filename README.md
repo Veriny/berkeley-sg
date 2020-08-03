@@ -1,10 +1,10 @@
 ---
-description: Study guides for hard (?) classes
+description: Study guides for classes
 ---
 
 # \#Despair
 
-Hello! If you've found my study guides, feel free to use them, though I am mostly making these for personal use.
+Hello! If you've found my study guides, feel free to use them.
 
 ### Computer Science
 
