@@ -5,7 +5,6 @@
 ## CS61A
 
 * [CS61A — Overview](cs61a/untitled.md)
-* [Chapter 1: Building Abstractions with Functions](cs61a/chapter-1-building-abstractions-with-functions.md)
 
 ## CS61B
 
