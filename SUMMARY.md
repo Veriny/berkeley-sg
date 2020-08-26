@@ -30,3 +30,7 @@
 * [Chapter 1: Modeling via Differential Equations](math-275-ordinary-differential-equations/chapter-1-modeling-via-differential-equations.md)
 * [Chapter 3: Linear Systems](math-275-ordinary-differential-equations/chapter-3-linear-systems.md)
 
+## INTEGBI 35AC
+
+* [Module 1](integbi-35ac/module-1.md)
+
