@@ -35,7 +35,7 @@ There are four major groups of mammals.
 Eutherians and Marsupials actually share a pretty close common answer \(in terms of time\).
 {% endhint %}
 
-There are 23 orders within the mammalia, of which we share a most recent common ancestor with three other orders — the chiroptera, the scandentia, and the dermopterans.
+There are 23 orders within the mammalia, of which we share a most recent common ancestor with three other orders — the chiroptera \(bats — wow they can fly\), the scandentia, and the dermopterans \(lemurs\).
 
 #### The Origins of Mammals
 
