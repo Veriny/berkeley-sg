@@ -41,6 +41,8 @@ There are 23 orders within the mammalia, of which we share a most recent common 
 
 Mammals are thought to originate from the allegedly nocturnal creature, Hadrocodium. They were warm-blooded \(**homeothermic**\) and lactated. A distinguishing characteristic was that they had \(**internal gestation**\) development inside the mother rather than completely in an egg.
 
+There was a large temprature spike during the paleocene, allowing the tropics, and therefore primates, to spread. 
+
 {% hint style="info" %}
 **Heterodonty** was an important evolutionary advantage. Their teeth were all different, meaning that they were able to adapt their diets easier making them more likely to survive.
 {% endhint %}
