@@ -5,7 +5,7 @@ description: >-
   fun if you read the lectures and not my note
 ---
 
-# Module 1
+# Module 1 — Humans Came From Fish
 
 ## The History of Life on Earth
 
@@ -18,4 +18,34 @@ There are three domains of life, eukaryota, bacteria, and archaea.
 ## Kingdom Animalia
 
 The vast majority of animals are both motile \(they move around\) and they are heterotrophic \(meaning that they need to eat.\) The majority \(around 90 percent\) are invertebrates, meaning that they do not have an internal skeleton. Furthermore, 90 percent of all vertebrates are mammals, and most are fish. 
+
+### Mammals
+
+There are four major groups of mammals.
+
+* Eutherians \(placental mammals\)
+* Marsupials \(pouched mammals\)
+* Monotremes \(egg-laying mammals\)
+  * Only two exist, the platypus and the echidna.
+* Multituberculates \(the extinct mammals\)
+  * These goons were actually pretty evolutionarily successful! They lived for a long time before they died out.
+  * They appear to have gone extinct because they were outcompeted by mice.
+
+{% hint style="info" %}
+Eutherians and Marsupials actually share a pretty close common answer \(in terms of time\).
+{% endhint %}
+
+There are 23 orders within the mammalia, of which we share a most recent common ancestor with three other orders — the chiroptera, the scandentia, and the dermopterans.
+
+#### The Origins of Mammals
+
+Mammals are thought to originate from the allegedly nocturnal creature, Hadrocodium. They were warm-blooded \(**homeothermic**\) and lactated. A distinguishing characteristic was that they had \(**internal gestation**\) development inside the mother rather than completely in an egg.
+
+{% hint style="info" %}
+**Heterodonty** was an important evolutionary advantage. Their teeth were all different, meaning that they were able to adapt their diets easier making them more likely to survive.
+{% endhint %}
+
+## Presentism in Biology
+
+When looking at human biological history and biodiversity, it is important to consider that we are biased towards the present in terms of our experience with other living things, and it is important to consider not only the present, but the history of biodiversity, in order to form a better understanding of how we got here. 
 

@@ -32,5 +32,5 @@
 
 ## INTEGBI 35AC
 
-* [Module 1](integbi-35ac/module-1.md)
+* [Module 1 — Humans Came From Fish](integbi-35ac/module-1.md)
 
