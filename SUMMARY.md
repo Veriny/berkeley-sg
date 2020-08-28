@@ -4,7 +4,6 @@
 
 ## CS61A
 
-* [CS61A — Overview](cs61a/untitled.md)
 * [Call Expressions, Names, etc.](cs61a/call-expressions.md)
 
 ## CS61B
