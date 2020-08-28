@@ -5,7 +5,7 @@ description: >-
   fun if you read the lectures and not my note
 ---
 
-# Module 1 — Humans Came From Fish
+# Humans Came From Fish
 
 ## The History of Life on Earth
 
