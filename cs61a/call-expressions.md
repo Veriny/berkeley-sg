@@ -19,3 +19,7 @@ There is a specific evaluation procedure for call expressions.
 Note that you can **nest** call expressions. In other words, operands can be other operator with its own operands.
 {% endhint %}
 
+Things like numbers, names, etc are just called primitive expressions.
+
+
+
