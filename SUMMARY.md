@@ -33,6 +33,7 @@
 ## INTEGBI 35AC
 
 * [Humans Came From Fish](integbi-35ac/module-1.md)
+* [Evolution's History](integbi-35ac/evolutions-history.md)
 
 ## HIST 20
 
