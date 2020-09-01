@@ -1,2 +1,0 @@
-# CS70 — Overview
-

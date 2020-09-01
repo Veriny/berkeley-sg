@@ -6,13 +6,9 @@
 
 * [Call Expressions, Names, etc.](cs61a/call-expressions.md)
 
-## CS61B
+## EE16A
 
-* [CS61B — Overview](cs61b/cs61b-overview.md)
-
-## CS70
-
-* [CS70 — Overview](cs70/cs70-overview.md)
+* [Untitled](ee16a/untitled.md)
 
 ## MATH 270 — Linear Algebra
 

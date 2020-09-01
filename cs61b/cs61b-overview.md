@@ -1,2 +1,0 @@
-# CS61B — Overview
-
