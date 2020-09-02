@@ -8,7 +8,7 @@
 
 ## EE16A
 
-* [Untitled](ee16a/untitled.md)
+* [Imaging](ee16a/untitled.md)
 
 ## MATH 270 — Linear Algebra
 
@@ -34,4 +34,5 @@
 ## HIST 20
 
 * [What is the History of Religion?](hist-20/what-is-the-history-of-religion.md)
+* [Prehistoric Religion](hist-20/prehistoric-religion.md)
 
