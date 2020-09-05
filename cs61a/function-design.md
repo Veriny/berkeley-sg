@@ -13,6 +13,15 @@ When designing functions, it is important to be aware of the set of all inputs *
 * Define functions generally.
 * Find common structures to create shared implementations.
 
+As for the syntax, here it is.
+
+```python
+def function_name(params):
+    return <return expression>
+```
+
+Of course, you do not always have to return something. In which case, your function will return `None` by default.
+
 ### assert
 
 Allows you to constrain the domain of a function.
