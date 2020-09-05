@@ -6,6 +6,7 @@
 
 * [Call Expressions, Names, etc.](cs61a/call-expressions.md)
 * [Function Design](cs61a/function-design.md)
+* [Environments and Frames](cs61a/environments-and-frames.md)
 
 ## EE16A
 
