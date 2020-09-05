@@ -36,4 +36,5 @@
 
 * [What is the History of Religion?](hist-20/what-is-the-history-of-religion.md)
 * [Prehistoric Religion](hist-20/prehistoric-religion.md)
+* [Thinking Through Myths](hist-20/thinking-through-myths.md)
 
