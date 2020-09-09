@@ -310,7 +310,7 @@ There are, however, some formal definitions.
 * Any set of vectors that contains the zero vectors as one of its vectors is linearly dependent.
 * Two vectors are linearly dependent of one is the multiple of the other.
 * An indexed set of vectors is linearly dependent if at least one of the vectors in S is a linear combination of the others.
-* If a set of vectors contains more vectors than there are entries in each vector, the set of vectors is linearly independent.
+* If a set of vectors contains more vectors than there are entries in each vector, the set of vectors is linearly dependent.
 
 ## Transformations
 
