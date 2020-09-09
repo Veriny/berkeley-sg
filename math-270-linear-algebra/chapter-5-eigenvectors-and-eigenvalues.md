@@ -1,4 +1,4 @@
-# Chapter 5: Eigenvectors and Eigenvalues
+# Eigenvectors and Eigenvalues
 
 In this section, we will discuss eigenvectors, eigenvalues \(**λ**\) and eigenspaces.
 

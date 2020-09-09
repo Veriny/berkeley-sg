@@ -1,4 +1,4 @@
-# Chapter 4: Vector Spaces
+# Vector Spaces
 
 ## Introduction to Vector Spaces
 

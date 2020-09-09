@@ -1,4 +1,4 @@
-# Chapter 3: Determinants
+# Determinants
 
 ## Finding the Determinant
 

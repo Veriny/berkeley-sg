@@ -1,4 +1,4 @@
-# Chapter 1: Linear Equations in Linear Algebra
+# Linear Equations in Linear Algebra
 
 ## The Basic Linear Equation
 

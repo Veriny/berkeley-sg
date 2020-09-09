@@ -1,4 +1,4 @@
-# Chapter 2: Matrix Algebra
+# Matrix Algebra
 
 ## The Basics of Matrix Algebra
 

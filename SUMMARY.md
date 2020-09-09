@@ -15,12 +15,12 @@
 ## MATH 270 — Linear Algebra
 
 * [Math 270 — Overview](math-270-linear-algebra/math-270-overview.md)
-* [Chapter 1: Linear Equations in Linear Algebra](math-270-linear-algebra/chapter-1-linear-equations-in-linear-algebra.md)
-* [Chapter 2: Matrix Algebra](math-270-linear-algebra/chapter-2-matrix-algebra.md)
-* [Chapter 3: Determinants](math-270-linear-algebra/chapter-3-determinants.md)
-* [Chapter 4: Vector Spaces](math-270-linear-algebra/chapter-4-vector-spaces.md)
-* [Chapter 5: Eigenvectors and Eigenvalues](math-270-linear-algebra/chapter-5-eigenvectors-and-eigenvalues.md)
-* [Chapter 6: Projections and Orthogonality](math-270-linear-algebra/chapter-6-projections-and-orthogonality.md)
+* [Linear Equations in Linear Algebra](math-270-linear-algebra/chapter-1-linear-equations-in-linear-algebra.md)
+* [Matrix Algebra](math-270-linear-algebra/chapter-2-matrix-algebra.md)
+* [Determinants](math-270-linear-algebra/chapter-3-determinants.md)
+* [Vector Spaces](math-270-linear-algebra/chapter-4-vector-spaces.md)
+* [Eigenvectors and Eigenvalues](math-270-linear-algebra/chapter-5-eigenvectors-and-eigenvalues.md)
+* [Projections and Orthogonality](math-270-linear-algebra/chapter-6-projections-and-orthogonality.md)
 
 ## Math 275 — Ordinary Differential Equations
 

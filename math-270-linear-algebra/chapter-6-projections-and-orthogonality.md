@@ -1,4 +1,4 @@
-# Chapter 6: Projections and Orthogonality
+# Projections and Orthogonality
 
 ## Dot Products
 
