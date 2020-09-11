@@ -40,4 +40,5 @@
 * [Prehistoric Religion](hist-20/prehistoric-religion.md)
 * [Thinking Through Myths](hist-20/thinking-through-myths.md)
 * [Ritual and Power](hist-20/ritual-and-power.md)
+* [Hinduism](hist-20/hinduism.md)
 
