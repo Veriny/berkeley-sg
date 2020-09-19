@@ -42,4 +42,5 @@
 * [Ritual and Power](hist-20/ritual-and-power.md)
 * [Hinduism](hist-20/hinduism.md)
 * [Ancient China](hist-20/ancient-china.md)
+* [Ancient Israelites](hist-20/ancient-israelites.md)
 
