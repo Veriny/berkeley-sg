@@ -38,3 +38,47 @@ What the Herbrew bible itself does, was that it showed how much people cheated o
 
 Another example is Jeremiah lamenting the destruction of Jerusalem, who said that it had happened because Israelites were worshipping other gods, but the people responeded that the disaster had happened because they were forced to stop worshipping other gods. 
 
+## The Kingdom of Judah
+
+Following the fall of Israel, there were many debates in the Kingdom of Judah regarding the methods of worshiping God. 
+
+Upon reading a newly discovered Book of the Law, king Josiah declared that only God should be worshipped and the icons of other gods and priests of other gods be destroyed. He also ordered that all proper worship of God should be concentrated an Jerusalem, performed only by the priests of that temple. 
+
+\(Of course, most historians believe that the Book of the Law was created by the high priest himself. Therefore, it is a concentration of power — a book of politics.\)
+
+As such, from the time of King Josiah onwards, sacrifice was centralized at the one holy site at Jerusalem. It eliminated competition with other priests that worshipped other gods and priests who worshipped God at other places
+
+### The Temple
+
+The Temple was open every day for worship — huge gates that opened and closed at sunrise and sunset. There were private and public sacrifices, on behalf of individuals and the public alike.
+
+It was an obligation for male Jewish people to go to the wall three times a year.
+
+There were many large scale rituals — a group of hereditary priests, called the Cohens, who claimed to be descendants of Aaron.
+
+This was a massive change. It was as if the Roman Catholic Church declared that any worship other than in Rome was idolatry. 
+
+### The Prophets
+
+These guys were attached to temples and their job was to create lines of communication between the divine and royalty. In terms of the Hebrew prohets, they began to make moral guidelines to live — constatnly complaining abouyt the idolatry of the people. 
+
+They were the enemies of the priests. They believed that ethical positioning was mroe important than ritual, denouncing priestly ritual as impediments to religion.  Argues for moral purity — who cares if ritual is performed incorrectly, all god cares is that you are a person of virtue. 
+
+### A Scriptural Religion
+
+As time went on, Judaism went on and on to be more organized around texts. There were many texts that were revered, not just the Bible, which mainly was influenced by the priests. The priests had to include this text because it could not be ignored, even though it did not fit their faction's views. The Bible came into being as more and more new layers were added.
+
+The remarkability of the Bible comes from the fact that it contains a record of all the contradicitons that it went thought
+
+Although the texts were created to serve the Hebrew temple, in some ways it made the temple obsolete. Since sacrifice away from the temple was banned, Judaism without the temple \(e.g. Diaspora\) became the religion of the Bible.  
+
+### Roman Era
+
+When the Roman Empire conquered Jerusalem, the senate created a title called the King of the Jews, a puppet for the Roman empire the man appointed was Herod the Great, who built many fortresses and temples in the hopes that he would establish a dynasty. 
+
+Later on, there was a rebellion, followed by another rebellion, followed by the Romans taking over again and destroying the temple that Herod built. 
+
+Following, there were two branches of Judaism — one that addressed the diaspora by orgainizing religion around synagougues and religions text. The second branch was that Jesus was the messiah. The true israelites were not one nation but rather anyone could become an Israelite, just by believing in Jesus of Nazareth. 
+
+
+
