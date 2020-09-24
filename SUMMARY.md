@@ -43,4 +43,5 @@
 * [Hinduism](hist-20/hinduism.md)
 * [Ancient China](hist-20/ancient-china.md)
 * [Ancient Israelites](hist-20/ancient-israelites.md)
+* [Buddhism](hist-20/buddhism.md)
 
