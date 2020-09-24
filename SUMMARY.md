@@ -45,3 +45,7 @@
 * [Ancient Israelites](hist-20/ancient-israelites.md)
 * [Buddhism](hist-20/buddhism.md)
 
+---
+
+* [How Christianity Became Christian](how-christianity-became-christian.md)
+
