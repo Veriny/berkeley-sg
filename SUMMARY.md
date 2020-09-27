@@ -33,6 +33,7 @@
 * [Humans Came From Fish](integbi-35ac/module-1.md)
 * [Evolution's History](integbi-35ac/evolutions-history.md)
 * [Typology](integbi-35ac/typology.md)
+* [The Human Diaspora](integbi-35ac/the-human-diaspora.md)
 
 ## HIST 20
 
@@ -44,8 +45,5 @@
 * [Ancient China](hist-20/ancient-china.md)
 * [Ancient Israelites](hist-20/ancient-israelites.md)
 * [Buddhism](hist-20/buddhism.md)
-
----
-
-* [How Christianity Became Christian](how-christianity-became-christian.md)
+* [How Christianity Became Christian](hist-20/how-christianity-became-christian.md)
 
