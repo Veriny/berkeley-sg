@@ -1,3 +1,9 @@
+---
+description: >-
+  Rife with spelling and grammar errors, as I don't look at the screen when I
+  typed this.
+---
+
 # The Human Diaspora
 
 There are 21 different ancestry groups, as described by the _Baker et. al_ paper. No one person is just one ancestry group — most humans have evidence of at least six ancestry groups in their genomes. 
@@ -40,6 +46,44 @@ They had bone and ivory tools, and did art.
 We trhink that there was a warming event called the bolling allerod warming event. With this dramatic climatological event, human culture  
 
 ### The Beginning of Algriculture
+
+Humans started domsticated aminals — dogs, sheep, piigs, cattle, horses, llamas. Rice was domesticated in asia, wheat and oats in europe, beans, grounds, maize in North America. In multiple regions around the world, people were figuring out what they could do with the plants and animals around them.
+
+At this point, enarly 42 percent of regions oppupied by humans had some form of agriculture.
+
+How do we know that a plant is domesticated? There are morphological differences between the ears of wild and domestic wheat. YOu can see indications of grains being broken off rather than naturally falling off — these are visible in the archaeological record. 
+
+Surplus food supplies allowed larger civilizations to be established. More energy allowed people to develop monoliths like the Stonehenge. 
+
+As agriculture spread across Europe, hunter-gatherers meshed into the farmer groups. 
+
+### Horses
+
+The Scythians were one of the first examples of the domestication of horses — and would even bury the horses. There were also wagons, allowing people to move a lot of things at once. There were several cultural groups active in the start of thedomestication of horses. This helped with human genetic variation befcause there was more potential for movement. 
+
+### Yamnaya
+
+The Yamnaya were a people with no permanent settlements. The evidence that we had of them were their burial mounts, where people were buried with wagons and their horses. They are also associated with the corded ware culture — named after the way they would decorate their pottery. 
+
+Evidence of their genome appears across asia as well as Europe. 
+
+### The Ancient North Eurasians
+
+The people who lived at Mal'ta left behind bone carvings as well as figurines. Archaeologists found the remains of a baby 24,000 years ago. His genomic variation had an admixture graph rooted with the modern Europeans and Native Americans. 
+
+This ghost population intertwines people in Europe with the people in the Western Hemisphere. 
+
+### The Ancient Beringians
+
+During the last glacian maximum Beringia occupied a unique position and had unclac9iated land whose temperature only droppped a little but. 
+
+Archaeological expedition showed that there was a region of shrub tundra that was isolated from other areas by an ice sheet and a mesic tundra. This shrub tundra was a refuge — an area of biological productivity in an ice age. 
+
+The Beringian standstill analysis states that a population out of the Ancient North Eurasians took refuge in beringia during the last glacial maximum, and lived in genetic isolation during the ice age. 
+
+This indicates that ratehr than a roiute or a bridge, it was a center of population dispersal. People lived in the region, and when climate changed, people dispersed back into asia and back into the western hemisphere. 
+
+
 
 
 
