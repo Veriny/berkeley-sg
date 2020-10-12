@@ -49,4 +49,5 @@
 * [How Christianity Became Christian](hist-20/how-christianity-became-christian.md)
 * [How Islam Became Muslim](hist-20/how-islam-became-muslim.md)
 * [The Investiture Controversy](hist-20/the-investiture-controversy.md)
+* [Protestantism and Internalized Religion](hist-20/protestantism-and-internalized-religion.md)
 
