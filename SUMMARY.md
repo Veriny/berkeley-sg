@@ -12,6 +12,7 @@
 
 * [Imaging](ee16a/untitled.md)
 * [Introduction to Circuit Analysis](ee16a/introduction-to-circuit-analysis.md)
+* [Node Voltage Analysis](ee16a/node-voltage-analysis.md)
 
 ## MATH 270 — Linear Algebra
 
