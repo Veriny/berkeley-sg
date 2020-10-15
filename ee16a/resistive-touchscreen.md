@@ -18,5 +18,9 @@ The **resistance** of a conductive material is given by the equation $$R = \rho 
 
 As you can see, you write the resistances of the two resistors in terms of the resistivity, which brings length into the equation, allowing you to solve for $$L_{touch}$$ using node voltage analysis. Simply solve for $$u_{mid}$$ in terms of $$R_1$$ and $$R_2$$, and then you can plug the resistivities in.
 
+## Power
+
+
+
 
 
