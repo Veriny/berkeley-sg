@@ -14,6 +14,7 @@
 * [Introduction to Circuit Analysis](ee16a/introduction-to-circuit-analysis.md)
 * [Node Voltage Analysis](ee16a/node-voltage-analysis.md)
 * [Resistive Touchscreen](ee16a/resistive-touchscreen.md)
+* [Superposition](ee16a/superposition.md)
 
 ## MATH 270 — Linear Algebra
 
