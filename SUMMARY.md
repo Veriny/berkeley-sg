@@ -2,12 +2,6 @@
 
 * [\#Despair](README.md)
 
-## CS61A
-
-* [Call Expressions, Names, etc.](cs61a/call-expressions.md)
-* [Function Design](cs61a/function-design.md)
-* [Environments and Frames](cs61a/environments-and-frames.md)
-
 ## EE16A
 
 * [Imaging](ee16a/untitled.md)
@@ -29,8 +23,8 @@
 ## Math 275 — Ordinary Differential Equations
 
 * [Math 275 — Overview](math-275-ordinary-differential-equations/math-275-overview.md)
-* [Chapter 1: Modeling via Differential Equations](math-275-ordinary-differential-equations/chapter-1-modeling-via-differential-equations.md)
-* [Chapter 3: Linear Systems](math-275-ordinary-differential-equations/chapter-3-linear-systems.md)
+* [Modeling via Differential Equations](math-275-ordinary-differential-equations/chapter-1-modeling-via-differential-equations.md)
+* [Linear Systems](math-275-ordinary-differential-equations/chapter-3-linear-systems.md)
 
 ## INTEGBI 35AC
 
@@ -38,20 +32,4 @@
 * [Evolution's History](integbi-35ac/evolutions-history.md)
 * [Typology](integbi-35ac/typology.md)
 * [The Human Diaspora](integbi-35ac/the-human-diaspora.md)
-
-## HIST 20
-
-* [What is the History of Religion?](hist-20/what-is-the-history-of-religion.md)
-* [Prehistoric Religion](hist-20/prehistoric-religion.md)
-* [Thinking Through Myths](hist-20/thinking-through-myths.md)
-* [Ritual and Power](hist-20/ritual-and-power.md)
-* [Hinduism](hist-20/hinduism.md)
-* [Ancient China](hist-20/ancient-china.md)
-* [Ancient Israelites](hist-20/ancient-israelites.md)
-* [Buddhism](hist-20/buddhism.md)
-* [How Christianity Became Christian](hist-20/how-christianity-became-christian.md)
-* [How Islam Became Muslim](hist-20/how-islam-became-muslim.md)
-* [The Investiture Controversy](hist-20/the-investiture-controversy.md)
-* [The European Invention of Religion](hist-20/the-european-invention-of-religion.md)
-* [Protestantism and Internalized Religion](hist-20/protestantism-and-internalized-religion.md)
 

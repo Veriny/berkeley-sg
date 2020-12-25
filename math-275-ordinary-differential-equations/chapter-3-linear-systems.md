@@ -1,4 +1,4 @@
-# Chapter 3: Linear Systems
+# Linear Systems
 
 ## Harmonic Oscillators
 

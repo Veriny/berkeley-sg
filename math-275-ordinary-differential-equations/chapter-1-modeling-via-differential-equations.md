@@ -1,4 +1,4 @@
-# Chapter 1: Modeling via Differential Equations
+# Modeling via Differential Equations
 
 ## The Basic Unlimited Population Growth Model
 
