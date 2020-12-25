@@ -5,6 +5,7 @@
 ## EE16A
 
 * [Resistive Touchscreen](ee16a/resistive-touchscreen.md)
+* [Trilateration and Correlation](ee16a/trilateration-and-correlation.md)
 
 ## MATH 270 — Linear Algebra
 
