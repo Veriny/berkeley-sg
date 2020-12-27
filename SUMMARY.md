@@ -9,7 +9,7 @@
 
 ## MATH 270 — Linear Algebra
 
-* [Math 270 — Overview](math-270-linear-algebra/math-270-overview.md)
+* [Overview](math-270-linear-algebra/math-270-overview.md)
 * [Linear Equations in Linear Algebra](math-270-linear-algebra/chapter-1-linear-equations-in-linear-algebra.md)
 * [Matrix Algebra](math-270-linear-algebra/chapter-2-matrix-algebra.md)
 * [Determinants](math-270-linear-algebra/chapter-3-determinants.md)
