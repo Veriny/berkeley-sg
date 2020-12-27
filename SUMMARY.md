@@ -7,7 +7,7 @@
 * [Resistive Touchscreen](ee16a/resistive-touchscreen.md)
 * [Trilateration and Correlation](ee16a/trilateration-and-correlation.md)
 
-## MATH 270 — Linear Algebra
+## Linear Algebra <a id="math-270-linear-algebra"></a>
 
 * [Overview](math-270-linear-algebra/math-270-overview.md)
 * [Linear Equations in Linear Algebra](math-270-linear-algebra/chapter-1-linear-equations-in-linear-algebra.md)
