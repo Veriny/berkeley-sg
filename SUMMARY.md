@@ -2,6 +2,10 @@
 
 * [\#Despair](README.md)
 
+## EECS16B
+
+* [Thevenin and Norton Equivalence](eecs16b/thevenin-and-norton-equivalence.md)
+
 ## EE16A
 
 * [Resistive Touchscreen](ee16a/resistive-touchscreen.md)
