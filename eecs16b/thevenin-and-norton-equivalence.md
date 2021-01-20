@@ -9,8 +9,8 @@ description: Adapted from 16B notes.
 Resistors in parallel and in series can be simplified as follows.
 
 $$
-R_{\sum series} = \sum R_n \\
-R_{\sum parallel} = \sum (\frac{1}{R_n})^{-1}
+R_{\sum series} = R_1 + R_2 + R_3 + ... + R_n \\
+R_{\sum parallel} =  (\frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3} + ... +  \frac{1}{R_n})^{-1}
 $$
 
 ## Thevenin Equivalent Circuits
