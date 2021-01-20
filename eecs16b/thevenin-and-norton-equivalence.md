@@ -39,3 +39,7 @@ You can find the values, $$R_{No}$$ and $$I_{No}$$, as follows. Assume that you'
 * Find the voltage across the terminals of Ckt A. This is $$R_{No}$$. Note that$$R_{Th} = R_{No}$$!
 * Find the current flowing into Ckt A. This is $$I_{No}$$.
 
+{% hint style="success" %}
+Resistors in parallel have the same voltage.
+{% endhint %}
+
