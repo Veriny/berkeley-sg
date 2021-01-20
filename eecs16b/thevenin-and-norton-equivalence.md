@@ -10,7 +10,7 @@ Resistors in parallel and in series can be simplified as follows.
 
 $$
 R_{\sum series} = \sum R_n \\
-R_{\sum parallel} = \sum (\frac{1}{R_n})
+R_{\sum parallel} = \sum (\frac{1}{R_n})^{-1}
 $$
 
 ## Thevenin Equivalent Circuits
