@@ -24,7 +24,7 @@ $$
 ||\vec{x}  - \vec{a}_3||^2 = d_3^2
 $$
 
-We can use distance formula with the components. In the interest of brevity, we will only show one.
+We can use distance formula with the components.
 
 
 
