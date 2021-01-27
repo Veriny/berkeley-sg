@@ -2,11 +2,15 @@
 
 * [\#Despair](README.md)
 
-## EECS16B
+## 16B <a id="eecs16b"></a>
 
 * [Thevenin and Norton Equivalence](eecs16b/thevenin-and-norton-equivalence.md)
 
-## EE16A
+## 61B
+
+* [Testing](61b/testing.md)
+
+## 16A <a id="ee16a"></a>
 
 * [Resistive Touchscreen](ee16a/resistive-touchscreen.md)
 * [Trilateration and Correlation](ee16a/trilateration-and-correlation.md)
