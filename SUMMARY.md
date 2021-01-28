@@ -9,6 +9,7 @@
 ## 61B
 
 * [Testing](61b/testing.md)
+* [References in Java](61b/references-in-java.md)
 
 ## 16A <a id="ee16a"></a>
 
@@ -17,8 +18,7 @@
 
 ## Linear Algebra <a id="math-270-linear-algebra"></a>
 
-* [Overview](math-270-linear-algebra/math-270-overview.md)
-* [Linear Equations in Linear Algebra](math-270-linear-algebra/chapter-1-linear-equations-in-linear-algebra.md)
+* [Linear Equations](math-270-linear-algebra/chapter-1-linear-equations-in-linear-algebra.md)
 * [Matrix Algebra](math-270-linear-algebra/chapter-2-matrix-algebra.md)
 * [Determinants](math-270-linear-algebra/chapter-3-determinants.md)
 * [Vector Spaces](math-270-linear-algebra/chapter-4-vector-spaces.md)

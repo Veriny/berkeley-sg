@@ -1,4 +1,4 @@
-# Linear Equations in Linear Algebra
+# Linear Equations
 
 ## The Basic Linear Equation
 
