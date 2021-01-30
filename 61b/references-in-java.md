@@ -69,4 +69,5 @@ Arrays are objects, so it follows the same process we outlined above.
 
 1. **Declare** by creating a 64-bit box to store the address of the arrray.
 2. **Instantiate** the array by creating the appropriate amount of boxes to store `n` `int`s.
+3. Put the Array's memory address in whatever variable.
 
