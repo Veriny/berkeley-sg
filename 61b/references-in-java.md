@@ -68,5 +68,5 @@ would turn the original steven bald, since all of the bits of `a` were copied in
 Arrays are objects, so it follows the same process we outlined above.
 
 1. **Declare** by creating a 64-bit box to store the address of the arrray.
-2. **Instantiate** the array by creating the appropriate amount of boxes to store `n` ints.
+2. **Instantiate** the array by creating the appropriate amount of boxes to store `n` `int`s.
 
