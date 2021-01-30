@@ -33,3 +33,5 @@ Tests using JUnit may not be static methods.
 
 Using Intellij, these tests can be run individually or all at once. Combined with the debugger, students can avoid "autograder driven development," which entails of basically relying on the autograder to churn out code that will, eventually, be correct.
 
+You can run these tests all at once or individually in IntelliJ.
+
