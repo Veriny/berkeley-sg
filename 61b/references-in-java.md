@@ -49,14 +49,24 @@ In the above example, `b` and `a` refer to the same object, following with the G
 For example,
 
 ```java
-Steven a = new Steven("not bald");
+public static void main(String[] cheese){
+    Steven a = new Steven("not bald");
+    ageTenYears(a);
+}
+
 
 public static void ageTenYears(Steven s) {
     s.hairStatus = "bald";
 }
 
-ageTenYears(a);
 ```
 
 would turn the original steven bald, since all of the bits of `a` were copied into `s`
+
+## Declaration of Instantiation of Arrays
+
+Arrays are objects, so it follows the same process we outlined above.
+
+1. **Declare** by creating a 64-bit box to store the address of the arrray.
+2. **Instantiate** the array by creating the appropriate amount of boxes to store `n` ints.
 
