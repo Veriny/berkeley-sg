@@ -9,8 +9,8 @@ A linked list is a  recursive object that contains a value and the next element 
 ```java
 public class IntNode{
     private int item;
-    private IntList next;
-    public IntList(int item, IntList next){
+    private IntNode next;
+    public IntNode(int item, IntList next){
         this.item = item;
         this.next = next;
     }
