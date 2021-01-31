@@ -10,7 +10,7 @@
 
 * [Testing](61b/testing.md)
 * [References in Java](61b/references-in-java.md)
-* [Linked Lists](61b/linked-lists.md)
+* [Linked Lists in Java](61b/linked-lists.md)
 
 ## 16A <a id="ee16a"></a>
 
