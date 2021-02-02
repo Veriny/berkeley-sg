@@ -5,12 +5,14 @@
 ## 16B <a id="eecs16b"></a>
 
 * [Thevenin and Norton Equivalence](eecs16b/thevenin-and-norton-equivalence.md)
+* [RC Circuits & Transient Analysis](eecs16b/rc-circuits-and-transient-analysis.md)
 
 ## 61B
 
 * [Testing](61b/testing.md)
 * [References in Java](61b/references-in-java.md)
 * [Linked Lists in Java](61b/linked-lists.md)
+* [Java Arrays](61b/java-arrays.md)
 
 ## 16A <a id="ee16a"></a>
 
