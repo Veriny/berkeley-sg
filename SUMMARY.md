@@ -12,7 +12,8 @@
 * [Testing](61b/testing.md)
 * [References in Java](61b/references-in-java.md)
 * [Linked Lists in Java](61b/linked-lists.md)
-* [Java Arrays](61b/java-arrays.md)
+* [Implementation Inheritance](61b/implementation-inheritance.md)
+* [Untitled](61b/untitled.md)
 
 ## 16A <a id="ee16a"></a>
 
