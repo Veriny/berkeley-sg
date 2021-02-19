@@ -6,6 +6,7 @@
 
 * [Thevenin and Norton Equivalence](eecs16b/thevenin-and-norton-equivalence.md)
 * [RC Circuits & Transient Analysis](eecs16b/rc-circuits-and-transient-analysis.md)
+* [Vector Diffy Qs](eecs16b/vector-diffy-qs.md)
 
 ## 61B
 

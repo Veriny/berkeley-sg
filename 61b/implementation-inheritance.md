@@ -38,5 +38,5 @@ The constructors of subclasses can call the constructor of the superclass using 
 
 ## Encapsulation
 
-Implementation imheritance breaks encapsulation in such a way that working changes to the superclass can cause issues in the subclass without any changes in the subclass.
+Implementation inheritance breaks encapsulation in such a way that working changes to the superclass can cause issues in the subclass without any changes in the subclass.
 
