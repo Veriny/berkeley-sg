@@ -4,5 +4,7 @@ description: Notes from Josh Hug's lecture videos.
 
 # Comparators and Iterators
 
-To be filled in.
+{% hint style="success" %}
+TODO: Fill in information for methods, comparators.
+{% endhint %}
 

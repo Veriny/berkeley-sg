@@ -15,6 +15,7 @@
 * [Linked Lists in Java](61b/linked-lists.md)
 * [Implementation Inheritance](61b/implementation-inheritance.md)
 * [Comparators and Iterators](61b/untitled.md)
+* [Casting](61b/casting.md)
 * [Lists and Sets](61b/lists-and-sets.md)
 
 ## 16A <a id="ee16a"></a>
