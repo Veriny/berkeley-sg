@@ -2,7 +2,5 @@
 description: Notes from Josh Hug's lecture videos.
 ---
 
-# Comparators and Iterators
-
-To be filled in.
+# Lists and Sets
 

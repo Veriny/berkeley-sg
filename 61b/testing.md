@@ -15,7 +15,7 @@ description: Adapted from 61B's coursework.
 
 Testing in Java is simple using the JUnit library. Here is an example of a possible test.
 
-```text
+```java
 @org.jnunit.Test
 public void testMethod() {
     Object[] input = {"before"};
