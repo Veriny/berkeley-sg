@@ -18,6 +18,7 @@
 * [Casting](61b/casting.md)
 * [Lists and Sets](61b/lists-and-sets.md)
 * [Asymptotics](61b/asymptotics.md)
+* [Trees](61b/bsts.md)
 
 ## 16A <a id="ee16a"></a>
 
