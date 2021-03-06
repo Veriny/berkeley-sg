@@ -19,6 +19,7 @@
 * [Lists and Sets](61b/lists-and-sets.md)
 * [Asymptotics](61b/asymptotics.md)
 * [Trees](61b/bsts.md)
+* [Hashing](61b/hashing.md)
 
 ## 16A <a id="ee16a"></a>
 
