@@ -20,6 +20,7 @@
 * [Asymptotics](61b/asymptotics.md)
 * [Trees](61b/bsts.md)
 * [Hashing](61b/hashing.md)
+* [PriorityQueue and Heap](61b/priorityqueue-and-heap.md)
 
 ## 16A <a id="ee16a"></a>
 
