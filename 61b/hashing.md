@@ -37,7 +37,7 @@ If our bucket is a linked list, than in the worst case, our runtime will be $$\t
 We can solve both these problems by implementing resizing — have a small number of buckets, and if it gets too full, add more buckets. Resizing will take $$\Theta(N)$$ time, because we have to redistribute every single item.
 
 {% hint style="info" %}
-We can decide when to resize based on a **load factor** $$\frac{M}{N}$$ , where $$M$$ is the number of buckets and $$N$$ is the number of items in the hashmap.
+We can decide when to resize based on a **load factor** $$\frac{N}{M}$$ , where $$M$$ is the number of buckets and $$N$$ is the number of items in the hashmap.
 {% endhint %}
 
 Hash codes themselves MUST:
