@@ -45,6 +45,6 @@ Instead of keeping track of each individual connection, we can just keep track o
 | `connect(3, 2)` | `{1, 2, 3}` |
 
 {% hint style="success" %}
-TODO: Fill in information about lists.
+TODO: Fill in information about weighted quick union/quick union.
 {% endhint %}
 
