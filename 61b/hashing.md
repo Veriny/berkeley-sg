@@ -32,9 +32,20 @@ The name of the number we computed in the previous section is known as a hash co
 
 In order to deal with collisions, we will use hash tables. The basic idea of this is that, unlike before, when we used an array of booleans, we will use an array of "buckets" which will store any number of items that contain the same hashcode.
 
-If our bucket is a linked list, than in the worst case, our runtime will be `O(Q)` where Q is the length of the longest bucket. We also have the issue that we have billions of buckets, which is a massive waste of memory.
+If our bucket is a linked list, than in the worst case, our runtime will be $$\text{O}(Q)$$ where Q is the length of the longest bucket. We also have the issue that we have billions of buckets, which is a massive waste of memory.
 
-We can solve both these problems by implementing resizing — have a small number of buckets, and if it gets too full, add more buckets. Resizing will take `theta(N)` time, because we have to redistribute every single item.
+We can solve both these problems by implementing resizing — have a small number of buckets, and if it gets too full, add more buckets. Resizing will take $$\Theta(N)$$ time, because we have to redistribute every single item.
+
+{% hint style="info" %}
+We can decide when to resize based on a **load factor** $$\frac{M}{N}$$ , where $$M$$ is the number of buckets and $$N$$ is the number of items in the hashmap.
+{% endhint %}
+
+Hash codes themselves MUST:
+
+* Be deterministic — repeated calls on the same object must return the same code.
+* Be consistent with `.equals` — if two objects are equal, then they must return the same code.
+
+
 
 
 
