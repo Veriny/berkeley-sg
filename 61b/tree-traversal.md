@@ -1,3 +1,7 @@
+---
+description: Adapted from Josh Hug's Lectures
+---
+
 # Graphs, Tree Traversals
 
 ## Depth First Traversals
@@ -47,4 +51,6 @@ Preorder traversal: Visit every time we pass the left of a node.
 Inorder traversal: Visit when we cross the middle of a node.  
 Postorder: Visit when we cross the right of a node.
 {% endhint %}
+
+## Graphs
 
