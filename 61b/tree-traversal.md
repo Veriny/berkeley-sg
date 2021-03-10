@@ -54,3 +54,19 @@ Postorder: Visit when we cross the right of a node.
 
 ## Graphs
 
+Graphs are like trees, but without the restriction that each node may only have one path to every other node. This means that a node can have 1, 2, 3, or no paths to another node. 
+
+* A graph has a set of nodes, which may or may not be connected by edges.
+* A graph has a set of edges, each of which connects to nodes.
+
+Furthermore, a graph is a simple graph if:
+
+* There are no "loops" \(edges that connect a node to itself\)
+* There are no parallel edges \(two edges that connect the same two nodes\)
+
+{% hint style="warning" %}
+In CS61B, **unless stated otherwise**, all graphs are **simple.**
+{% endhint %}
+
+
+
