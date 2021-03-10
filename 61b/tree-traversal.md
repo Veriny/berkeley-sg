@@ -68,5 +68,18 @@ Furthermore, a graph is a simple graph if:
 In CS61B, **unless stated otherwise**, all graphs are **simple.**
 {% endhint %}
 
+### More Graph Types
 
+![Source: Josh Hug](../.gitbook/assets/screen-shot-2021-03-10-at-2.49.05-pm.png)
+
+Directed graphs have edges with directionality, whereas undirected does not. Cyclic graphs contain cycles, but acyclic graphs are trees \(if all of the nodes are connected\).
+
+Edges are also often labeled with weights. 
+
+### More Terminology
+
+* Nodes with an edge between them are adjacent. 
+* A path is a sequence of vertices connected by edges.
+* A cycle is a path whose first and last vertices are the same. If a graph contains a cycle, it is cyclic.
+* A connected graph is a graph where each node has a path to every other node.
 
