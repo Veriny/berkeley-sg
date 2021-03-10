@@ -21,7 +21,7 @@
 * [Trees](61b/bsts.md)
 * [Hashing](61b/hashing.md)
 * [PriorityQueue and Heap](61b/priorityqueue-and-heap.md)
-* [Tree Traversal](61b/tree-traversal.md)
+* [Graphs, Tree Traversals](61b/tree-traversal.md)
 
 ## 16A <a id="ee16a"></a>
 

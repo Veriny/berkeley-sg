@@ -1,4 +1,4 @@
-# Tree Traversal
+# Graphs, Tree Traversals
 
 ## Depth First Traversals
 
@@ -40,4 +40,11 @@ void postOrder(BSTNode x) {
     print(x.key); //"Visiting" the node
 }
 ```
+
+{% hint style="info" %}
+Visual trick for humans: Trace a path around the graph, from the top going counter-clockwise, and:  
+Preorder traversal: Visit every time we pass the left of a node.  
+Inorder traversal: Visit when we cross the middle of a node.  
+Postorder: Visit when we cross the right of a node.
+{% endhint %}
 
