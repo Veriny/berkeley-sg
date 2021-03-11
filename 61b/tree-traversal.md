@@ -83,3 +83,97 @@ Edges are also often labeled with weights.
 * A cycle is a path whose first and last vertices are the same. If a graph contains a cycle, it is cyclic.
 * A connected graph is a graph where each node has a path to every other node.
 
+### Some Graph Queries
+
+* s-t path — is there a path between vertices s and t?
+* connectivity — is the graph connected, and is there a path between all vertices?
+* biconnectivity — is there a vertex whose removal disconnects the path?
+* shortest s-t path — what is the shortest path between vertices s and t?
+* cycle detection — does the graph have any cycles?
+* **euler tour —is there a cycle that uses every edge exactly once?**
+* **hamilton tour — is there a cyle that uses every vertex exactly once?**
+* planarity — can you draw a graph on paper without any edges crossing?
+* isomorphism — are two graphs actually the same?
+
+### Depth First Search
+
+DFS is an algorithm that traverses all of the subnodes of a child node to the very end before moving on to the next child.
+
+Just like tree traversals, there are preorders and postorders.
+
+### Breadth First Search
+
+Breadth-first search is actually non-recursive. 
+
+1. Initialize a queue with a starting vertex s, and mark that vertex. 
+2. Repeat until the queue is empty
+   1. Remove vertex v from the front of the queue
+   2. For each unmarked neighbor of v
+      1. Mark n
+      2. Set edgeTo\[n\] = v \(or track the distance if you want\)
+      3. Add n to the end of the queue.
+
+### Building a Graph API
+
+* Our graph is of numbers, which can map to different values using a different data structure. 
+*  We represent our graph using an adjacency list, where we have an array that contains all of the vertices that it is connected to.
+
+Here is a graph of runtimes for certain operations with different data structures for graphs.                                                                                                                                                            
+
+![Source: Josh Hug](../.gitbook/assets/screen-shot-2021-03-10-at-5.57.16-pm.png)
+
+### Possible Code
+
+From lecture, here is DepthFirstPaths, with comments.
+
+```java
+public class DepthFirstPaths {
+    private boolean[] marked;
+    private int[] edgeTo;
+    private int s;
+    public DepthFirstPaths(Graph g, int s) {
+        ...
+        dfs(G, s);
+    }
+    private void dfs() {
+        marked[v] = true; // Mark the node as visited so we don't come back to it
+        for (int w: G.adj(v)) {
+            if (!marked[w]) {
+                edgeTo[w] = v; //Visit the node. In this case, we record the edge.
+                dfs(G, w); //dfs the rest
+            }
+        }
+    }
+}
+```
+
+From lecture, here is BreadthFirstPaths, with comments.
+
+```java
+public class BreadthFirstPaths {
+    private boolean[] marked;
+    private int[] edgeTo;
+    public BreadthFirstPaths(Graph G, int s) {
+        ...
+        bfs(G, s);
+    }
+    
+    private void bfs(Graph G, int s) {
+        Queue<Integer> fringe  = new Queue<Integer>();
+        fringe.enqueue(s); // Starting vertex
+        while (!fringe.isEmpty()) {
+            int v = fringe.dequeue(); //Dequeue the first item inside the queue
+            for (int w : G.adj(v)) { // Deal with each of v's kids
+                if (!marked[w]) {
+                    fringe.enqueue(w); // Ensures we're going breadth-first
+                    marked[w] = true;
+                    edgeTo[w] = v;
+                }
+            }
+        }
+    }
+}
+```
+
+
+
