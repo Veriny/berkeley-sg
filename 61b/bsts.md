@@ -40,9 +40,15 @@ In order to prevent BSTs from becoming too "spindly" \(too little elements relat
 
 2-3 trees are just binary search trees, but nodes can be crammed with more than one item.  If a node gets too full, just pass one of the items in the overstuffed node to the parent node. Then, split the nodes up \(if there are two items in the parent, have three children one node with the things that are less than both, one for in between, and one for items that are greater than both\)
 
+## LLRB Trees
 
+LLRB trees mimic 2-3 trees, but without the complication of overstuffing nodes. Here is how it works.
 
-{% hint style="success" %}
-TODO: 2-3 Trees, LLRB trees, rotation
-{% endhint %}
+* When inserting, use red link.
+* No node may have two red links
+* Every path from the root to the leaf must have the same number of black links.
+* When inserting, use a red link.
+* If there is a right leaning red link, rotate left the parent node to fix it.
+* If there is are two consecutive left links, rotate left to fix.
+* If there are any nodes with two red children, color swap \(every link the node is connected to changes color\) the node. The root's parent link will always be black.
 
