@@ -52,3 +52,7 @@ LLRB trees mimic 2-3 trees, but without the complication of overstuffing nodes. 
 * If there is are two consecutive left links, rotate the top node right to fix.
 * If there are any nodes with two red children, color swap \(every link the node is connected to changes color\) the node. The root's parent link will always be black.
 
+## Rotations
+
+![Credit: UC Berkeley Computer Science Mentors](../.gitbook/assets/image%20%289%29.png)
+
