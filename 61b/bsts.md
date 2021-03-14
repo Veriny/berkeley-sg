@@ -49,6 +49,6 @@ LLRB trees mimic 2-3 trees, but without the complication of overstuffing nodes. 
 * Every path from the root to the leaf must have the same number of black links.
 * When inserting, use a red link.
 * If there is a right leaning red link, rotate left the parent node to fix it.
-* If there is are two consecutive left links, rotate left to fix.
+* If there is are two consecutive left links, rotate the top node right to fix.
 * If there are any nodes with two red children, color swap \(every link the node is connected to changes color\) the node. The root's parent link will always be black.
 
