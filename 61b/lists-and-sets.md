@@ -72,9 +72,12 @@ List<Steven> lst = new List<>();
 
 The two most common ones in 61B are `ArrayList` and `LinkedList`. An example of instantiating an `ArrayList` and performing some operations on it are shown below.
 
+{% hint style="info" %}
+The **type** of object that the list holds goes in the `<>.`
+{% endhint %}
+
 ```java
 ArrayList<Integer> lst = new ArrayList<>(); 
-//The type of object that the list holds goes in the <>. Primitives not allowed.
 lst.add(6);
 lst.add(4);
 lst.add(69);
@@ -83,6 +86,14 @@ lst.size(); //3
 ```
 
 Here is a partial list of list methods.
+
+| Method | What it Does |
+| :--- | :--- |
+| `void add(T x);` | Adds object `x` of type `T` to the end of the list. |
+| `int size();` | Return the size of the list. |
+| `void sort(Comparator<T> c)` | Sorts the list according to the comparator. |
+| `T get(int index);` | Gets item at the specified index and returns it. |
+| `void remove();` | Remove all the items in the list. |
 
 
 
