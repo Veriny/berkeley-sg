@@ -135,7 +135,7 @@ public class DepthFirstPaths {
         ...
         dfs(G, s);
     }
-    private void dfs() {
+    private void dfs(Graph G) {
         marked[v] = true; // Mark the node as visited so we don't come back to it
         for (int w: G.adj(v)) {
             if (!marked[w]) {
