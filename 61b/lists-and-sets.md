@@ -1,5 +1,5 @@
 ---
-description: Notes from Josh Hug's lecture videos.
+description: Adapted from Josh Hug's Lectures.
 ---
 
 # Lists and Sets
@@ -61,4 +61,28 @@ Weighted quick union avoids tall trees \(and therefore an expensive `root`\) by 
 ### Weighted Quick Union + Path Compression
 
 Like weighted quick union, but when we check connections, we tie all nodes seen on the way down the tree to the root. This flattens the tree over and over, improving our $$\log$$ runtime to $$lg*$$, which is so efficient it might as well be constant \(amortized - "average" constant time\).
+
+## Lists in Java
+
+Lists are a useful interface in hava. They are instantiated as follows.
+
+```java
+List<Steven> lst = new List<>();
+```
+
+The two most common ones in 61B are `ArrayList` and `LinkedList`. An example of instantiating an `ArrayList` and performing some operations on it are shown below.
+
+```java
+ArrayList<Integer> lst = new ArrayList<>(); 
+//The type of object that the list holds goes in the <>. Primitives not allowed.
+lst.add(6);
+lst.add(4);
+lst.add(69);
+lst.contains(42); //Returns false
+lst.size(); //3
+```
+
+Here is a partial list of list methods.
+
+
 
