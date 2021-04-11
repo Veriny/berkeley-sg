@@ -175,5 +175,82 @@ public class BreadthFirstPaths {
 }
 ```
 
+## Shortest Paths
 
+Right now, we have DFS and BFS for traversing graphs and finding paths. If we use BFS, we will get the shortest path in terms of number of edges.
+
+Space efficiency is worse for DFS in the case of a spindly graph, but BFS is worse for a bushy graph. In both of these worst cases, $$\Theta(V)$$ space is required.
+
+In order to get the correct shortest paths, we need to take into account the "weight" of the edges. 
+
+### Djikstra's Algorithm
+
+Djikstra's algorithm is a method of finding the SPT of a node in a graph. It works as follows.
+
+* Insert all vertices of the source into fringe PQ, inserting in order from the source.
+* Remove the closest vertex from the PQ, and relax all edges pointing to it.
+
+{% hint style="info" %}
+To relax an edge is to only add it to the shortest-paths tree if it yields a better distance.
+{% endhint %}
+
+This algorithm assumes that there are no edges that have negative weights. 
+
+| Operation | Cost Per Operation | Total Cost |
+| :--- | :--- | :--- |
+| PQ Add | $$\text{O}(log V)$$  | $$\text{O}(Vlog V)$$  |
+| PQ removeSmallest | $$\text{O}(log V)$$  | $$\text{O}(Vlog V)$$  |
+| PQ changePriority | $$\text{O}(log V)$$  | $$\text{O}(Elog V)$$  |
+
+Our total runtime, assuming that there are more edges than vertices, is $$\text{O}(Elog V)$$ 
+
+### A\*
+
+Basically the same as Djikstra's, but instead of the standard **best-first search** we add an estimated distance to our goal when considering which vertex to visit. Does not yield a valid shortest-paths tree, because we only care about finding one number.
+
+## Spanning Trees
+
+A **spanning tree** is:
+
+* A tree.
+* Contains all the nodes of a graph.
+* Does not contain cycles.
+
+A **minimum spanning tree** is:
+
+* A spanning tree that has the minimum total weight.
+
+### Cuts
+
+Two definitions:
+
+* A **cut** is when a graph's nodes are split into two different sets.
+* A **crossing edge** is any edge that connects a node from one of the sets to another.
+
+For any cut, the minimum crossing edge is guaranteed to be a part of the minimum spanning tree.
+
+### Prim's Algorithm
+
+Prim's algorithm works as follows.
+
+* Add a node to the MST.
+* Add the shortest edge that has only one node in the MST into the MST, adding the newly connected node to the MST.
+* Repeat above.
+
+Algorithmically, this is what it boils down to.
+
+* Decide on a source node to be the start of the MST.
+* Insert all other vertices into a fringe, sorted by distance from tree \(assume that the not-connected edges are infinity distance away for now\)
+* Remove the closest vertex, adding is edge to the MST, and relax all edges pointing from v.
+
+Runtime-wise, worst case is the same as Djikstra's algorithm.
+
+### Kruskal's Algorithm
+
+Kruskal's algorithm does the following. Considering edges in increasing weight,
+
+* Consider edges in increasing weight
+* If it does not cause a cycle, add it to the MST.
+
+For this, runtime is $$\text{O}(ElogE)$$.
 
