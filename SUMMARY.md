@@ -23,6 +23,7 @@
 * [PriorityQueue and Heap](61b/priorityqueue-and-heap.md)
 * [Graphs, Tree Traversals](61b/tree-traversal.md)
 * [Tries](61b/tries.md)
+* [Sorting](61b/sorting.md)
 
 ## 16A <a id="ee16a"></a>
 
