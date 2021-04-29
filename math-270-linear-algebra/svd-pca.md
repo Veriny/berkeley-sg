@@ -29,10 +29,12 @@ $$
 \text{Eigenvalues of }\textbf{M}^\intercal\textbf{M} \text{ are real and non-negative.}
 $$
 
+Along with these cheese strats, we claim that the columns of $$\textbf{C}\textbf{V}_{col}$$ where $$\textbf{V}_{col}$$ is the left side of the matrix we split into two earlier.  This makes our $$\textbf{V}$$ matrix useful for calculations.
+
 
 
 {% hint style="success" %}
-TODO: PCA
+TODO: Finish SVD, PCA
 {% endhint %}
 
 
