@@ -38,6 +38,7 @@
 * [Vector Spaces](math-270-linear-algebra/chapter-4-vector-spaces.md)
 * [Eigenvectors and Eigenvalues](math-270-linear-algebra/chapter-5-eigenvectors-and-eigenvalues.md)
 * [Projections and Orthogonality](math-270-linear-algebra/chapter-6-projections-and-orthogonality.md)
+* [SVD/PCA](math-270-linear-algebra/svd-pca.md)
 
 ## Math 275 — Ordinary Differential Equations
 
