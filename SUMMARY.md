@@ -2,11 +2,12 @@
 
 * [\#Despair](README.md)
 
-## 16B <a id="eecs16b"></a>
+## 16A/B <a id="eecs16b"></a>
 
 * [Thevenin and Norton Equivalence](eecs16b/thevenin-and-norton-equivalence.md)
+* [Resistive Touchscreen](eecs16b/resistive-touchscreen.md)
+* [Trilateration and Correlation](eecs16b/trilateration-and-correlation.md)
 * [RC Circuits & Transient Analysis](eecs16b/rc-circuits-and-transient-analysis.md)
-* [Vector Diffy Qs](eecs16b/vector-diffy-qs.md)
 
 ## 61B
 
@@ -24,11 +25,6 @@
 * [Graphs, Tree Traversals](61b/tree-traversal.md)
 * [Tries](61b/tries.md)
 * [Sorting](61b/sorting.md)
-
-## 16A <a id="ee16a"></a>
-
-* [Resistive Touchscreen](ee16a/resistive-touchscreen.md)
-* [Trilateration and Correlation](ee16a/trilateration-and-correlation.md)
 
 ## Linear Algebra <a id="math-270-linear-algebra"></a>
 
