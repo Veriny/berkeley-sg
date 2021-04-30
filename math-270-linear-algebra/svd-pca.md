@@ -51,10 +51,18 @@ Here is a summary of the above for finding the SVD.
 
 * Compute $$\textbf{S} = \textbf{M}^\intercal\textbf{M}.$$ 
 * Find the orthonormalized eigenvectors of $$\textbf{S}$$to be cols of$$\textbf{V}.$$
-* Compute $$\textbf{U}$$ where the columns of it are $$\vec{u}_i = \frac{\textbf{M}\vec{v}_i}{\sqrt{\lambda_i}}$$, $$\lambda_i\neq0.$$ 
+* Compute $$\textbf{U}$$ where the columns of it are $$\vec{u}_i = \frac{\textbf{M}\vec{v}_i}{\sqrt{\lambda_i}}$$, $$\lambda_i\neq0.$$ \(If there aren't enough for it to be a square, fill the rest with gram-schmidt\)
 * Compute $$\Sigma$$ where the items on the diagonal are $$\sigma_i=\sqrt{\lambda_i}.$$ 
 
 The result is $$\textbf{M} = \textbf{U}\Sigma\textbf{V}^{\intercal}.$$ 
+
+{% hint style="info" %}
+If the matrix is not full rank, your diagonal just gets cut off in your $$\Sigma$$ matrix and there will be some zeroes along the diagonal.
+{% endhint %}
+
+### Compact form of SVD
+
+Having all of those zeroes is kind of cringe, so instead of the full SVD we can use a compact form. It basically cuts down the SVD so that, given $$r$$ is the rank of $$\textbf{M},$$ we have sizes $$\textbf{U}_{m\times r}, \Sigma_{r\times r},$$and $$\textbf{V}_{r\times{n}}.$$ Unfortunately, this means that our squareness is gone, which is also cringe.
 
 {% hint style="success" %}
 TODO: PCA
