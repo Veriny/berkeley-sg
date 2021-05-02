@@ -64,6 +64,45 @@ If the matrix is not full rank, your diagonal just gets cut off in your $$\Sigma
 
 Having all of those zeroes is kind of cringe, so instead of the full SVD we can use a compact form. It basically cuts down the SVD so that, given $$r$$ is the rank of $$\textbf{M},$$ we have sizes $$\textbf{U}_{m\times r}, \Sigma_{r\times r},$$and $$\textbf{V}_{r\times{n}}.$$ Unfortunately, this means that our squareness is gone, which is also cringe.
 
+## PCA
+
+"Principal components" are the lower-dimensional structures in 2D data. For example, the principal component of a line in a 2D graph is the underlying 1D structure of the line. 
+
+We can see this "collapse of dimensionality" by looking at $$\Sigma$$ and the number of singlular values there are. Of course, in real world applications, dimensionally-lost singular values won't perfectly be zero, but really close. I.E., if some of the singlular values are really small, don't pay attention to them. 
+
+To find the principal component is to find some vector $$\vec{w}$$ that, when projected onto the data, gives the least error. Note that w would be a matrix for multiple principal components. 
+
+If $$\vec{q_i}$$ was one data point, we would be minimizing
+
+$$
+\sum_{i=1}^n||\vec{q_i} - <\vec{q_i}, \vec{w}>\vec{w}||^2
+$$
+
+which simplifies to
+
+$$
+\sum_{i=1}^n||\vec{q_i}||^2 - <\vec{q_i}, \vec{w}>^2
+$$
+
+which is the same as wanting to maximize $$<\vec{q_i}, \vec{w}>^2.$$ 
+
+We further simplify as 
+
+$$
+\text{max}\left[\vec{w}^\intercal\left(\sum_{i=1}^n \vec{q}_i\vec{q}_i^\intercal\right)\vec{w}\right]
+$$
+
+which can be written in matrix form as 
+
+$$
+\text{max}\left[\vec{w}^\intercal\textbf{Q}\textbf{Q}^\intercal\vec{w}\right]
+$$
+
+We can then substitute the $$\textbf{Q}$$ matrices with their SVDs. Doing, so, we can simplify and find that:
+
+* If we want  $$i$$ principal components along the rows, we pick $$\vec{u}_1 ... \vec{u}_i.$$
+* If we wanted them along the rows, we pick $$\vec{v}_1 ... \vec{v}_i.$$ 
+
 {% hint style="success" %}
 TODO: PCA
 {% endhint %}
