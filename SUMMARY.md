@@ -26,6 +26,10 @@
 * [Tries](61b/tries.md)
 * [Sorting](61b/sorting.md)
 
+## Discrete Mathematics
+
+* [Set Notation](discrete-mathematics/set-notation.md)
+
 ## Linear Algebra <a id="math-270-linear-algebra"></a>
 
 * [Linear Equations](math-270-linear-algebra/chapter-1-linear-equations-in-linear-algebra.md)
