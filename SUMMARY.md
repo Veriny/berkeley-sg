@@ -28,7 +28,7 @@
 
 ## Discrete Mathematics
 
-* [Set Notation](discrete-mathematics/set-notation.md)
+* [Sets + Mathematical Notation](discrete-mathematics/set-notation.md)
 
 ## Linear Algebra <a id="math-270-linear-algebra"></a>
 
