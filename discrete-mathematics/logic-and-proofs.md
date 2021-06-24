@@ -94,5 +94,9 @@ In some cases, proving a statement $$(P \implies Q)$$might become overly complic
 | $$n$$ is odd | $$\exists x \in \mathbb{Z}: 2x + 1= n$$  |
 | $$n$$ is rational | $$\exists x, \exists y \in \mathbb{Z} : \frac{x}{y} = n$$  |
 
+{% hint style="success" %}
+TODO: Proof by contradiction, proof by cases, add more tools to useful tools section
+{% endhint %}
+
  
 
