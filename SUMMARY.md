@@ -29,6 +29,8 @@
 ## Discrete Mathematics
 
 * [Sets + Mathematical Notation](discrete-mathematics/set-notation.md)
+* [Logic and Proofs](discrete-mathematics/logic-and-proofs.md)
+* [Induction](discrete-mathematics/induction.md)
 
 ## Linear Algebra <a id="math-270-linear-algebra"></a>
 

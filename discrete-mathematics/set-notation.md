@@ -21,6 +21,7 @@ description: A dictionary of mathematical notation.
 | Iff | $$\iff$$  | If and only if. | `\iff` |
 | For all | $$\forall$$  | Used to refer to all of the elements within a specific set. | `\forall` |
 | There exists | $$\exists$$  | Used to declare the existance of one or more of something. | `\exists` |
+| Negation | $$\neg$$  | $$\neg P$$ is true when $$P$$is false. | `\neg` |
 
 
 
