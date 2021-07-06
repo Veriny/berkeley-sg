@@ -63,3 +63,7 @@ Given an equation, ax cong b mod m, check for solutions by seeing if gcd \(a, m\
 
 
 
+{% hint style="success" %}
+TODO: Formatting and additional information
+{% endhint %}
+
