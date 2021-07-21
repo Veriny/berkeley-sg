@@ -33,6 +33,7 @@
 * [Induction](discrete-mathematics/induction.md)
 * [Cryptography/RSA](discrete-mathematics/untitled.md)
 * [Modular Arithmetic](discrete-mathematics/modular-arithmetic.md)
+* [Discrete Probability](discrete-mathematics/discrete-probability.md)
 
 ## Linear Algebra <a id="math-270-linear-algebra"></a>
 
