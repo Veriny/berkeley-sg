@@ -64,3 +64,7 @@
 * [Divide and Conquer](170/divide-and-conquer.md)
 * [Fast Fourier Transform](170/fast-fourier-transform.md)
 
+## 61C
+
+* [Pointers and Memory](61c/pointers-and-memory.md)
+
