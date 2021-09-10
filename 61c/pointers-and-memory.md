@@ -66,3 +66,12 @@ When you call a function, a new "stack frame" is allocated. It includes:
 
 The "stack pointer" indicates the start of the stack frame. When a function ends, the stack pointer moves up, creating more space for future stack frames. 
 
+### The Heap
+
+| Thing | What it does |
+| :--- | :--- |
+| `malloc()` | Allocates a block of uninitialized memory. |
+| `calloc()` | Allocate a block of zeroed memory |
+| `free()` | Free previously allocated block of memory |
+| `realloc()` | Change size of previously allocated block, though it might move the memory. |
+
