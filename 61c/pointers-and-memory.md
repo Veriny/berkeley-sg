@@ -64,14 +64,22 @@ When you call a function, a new "stack frame" is allocated. It includes:
 * Arguments
 * Local variables
 
-The "stack pointer" indicates the start of the stack frame. When a function ends, the stack pointer moves up, creating more space for future stack frames. 
+The "stack pointer" indicates the start of the stack frame. When a function ends, the stack pointer moves up, creating more space for future stack frames. Creation and destruction goes in the order of "last-in, first out."
 
 ### The Heap
 
 | Thing | What it does |
 | :--- | :--- |
-| `malloc()` | Allocates a block of uninitialized memory. |
+| `malloc()` | Allocates a block of uninitialized memory. Just use `sizeof()` to find the amount of memory you need for the thing you want to allocate memory for. |
 | `calloc()` | Allocate a block of zeroed memory |
 | `free()` | Free previously allocated block of memory |
 | `realloc()` | Change size of previously allocated block, though it might move the memory. |
+
+Some potential problems with the heap are:
+
+* Memory leak: you forgot to deallocate memory.
+* Double free: you free the same memory twice.
+* Use after free: you use data after freeing it.
+
+
 
