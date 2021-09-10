@@ -73,7 +73,7 @@ The "stack pointer" indicates the start of the stack frame. When a function ends
 | `malloc()` | Allocates a block of uninitialized memory. Just use `sizeof()` to find the amount of memory you need for the thing you want to allocate memory for. |
 | `calloc()` | Allocate a block of zeroed memory |
 | `free()` | Free previously allocated block of memory |
-| `realloc()` | Change size of previously allocated block, though it might move the memory. |
+| `realloc()` | Change size of previously allocated block, though it might move the memory. Returns the pointer to the new location, which may or may not be the same. |
 
 Some potential problems with the heap are:
 
@@ -81,5 +81,34 @@ Some potential problems with the heap are:
 * Double free: you free the same memory twice.
 * Use after free: you use data after freeing it.
 
+{% hint style="info" %}
+When `malloc()` for a string, remember to add 1 to `strlen()` because that functiond oes not account for the null terminator.
+{% endhint %}
 
+If you want to hold different items in the same location, use a `union` instead of a `struct.`
+
+![Credit: Nicholas Weaver](../.gitbook/assets/screen-shot-2021-09-10-at-3.48.58-pm.png)
+
+Make sure you don't try and free memory in the stack.
+
+### Alignment
+
+Some alignment rules:
+
+* char: 1 alignment needed
+* short: 2 bytes, 1/2 word aligned, so 0, 2, 4, 6
+* int: 4 bytes, word aligned, 0, 4, 8, etc
+
+Structs must be aligned if they contain anything that wants alignment.
+
+### Pointers to Functions
+
+If you have a function definition, you can create a pointer of that type. For example, we have
+
+```c
+char *steven(char *a, int b){/*Things related to Rogaine*/}
+char *(*f) (char *, int); /*f is a function taking a char* and int and returning char*/
+bald = &steven; /*create a reference to the steven function*/
+(*steven)("pepega", 3); /*Call the function*/  
+```
 
