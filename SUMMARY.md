@@ -63,6 +63,7 @@
 * [Basics](170/basics.md)
 * [Divide and Conquer](170/divide-and-conquer.md)
 * [Fast Fourier Transform](170/fast-fourier-transform.md)
+* [Graphs](170/graphs.md)
 
 ## 61C
 
