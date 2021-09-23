@@ -46,3 +46,15 @@ In order to verify that a sort is topological, just check if the edge comes forw
 
 How to find a sink? Just find vertex in source SCC of the reversed original graph. Highest postorder number still works for this. 
 
+## Minimum Spanning Tree
+
+The spanning tree is a subgraph of G which contains all of the vertices in the graph and contains the minimum number of edges. The minimum spanning tree seeks to minimize the weights of the edges as well.
+
+**Algorithm 1:** Use the cut strategy. When you partition a graph, the smallest edge in the partition is guaranteed to be in the MST.
+
+**Algorithm 2:** Prim's Algorithm — initialize $$X$$as the empty set. Initialize $$S$$as $$\{s\}.$$Repeat the following $$n - 1$$times — supposing $$e$$is a min-weight edges crossing a subset of the graph $$S$$and $$V - S$$, if $$e = (a,b)$$then add $$a$$ to $$S$$and $$e$$ to $$X$$. Less formally, what we do is choose a vertex, then take the outgoing cheapest edge and add it to our tree. Then, we add the new vertex to our subset. Add the cheapest edge that goes out of the subset, and add the new vertex to the subset. Repeat until our subset contains all of the vertices in the graph.
+
+**Algorithm 3:** Kruskal's Algorithm. First, sort $$E(G)$$in increasing order of weight. Create a UnionFind data structure. For increasing $$e$$, add $$e$$if $$Find(a) \neq Find(b)$$and then $$Union(a, b)$$. This prevents cycles. In layman's terms, add the smallest edge in the graph if it does not create a cycle, and do it over and over again until we have the MST.
+
+
+
