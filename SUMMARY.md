@@ -68,4 +68,5 @@
 ## 61C
 
 * [Pointers and Memory](61c/pointers-and-memory.md)
+* [RISC-V, Assembly](61c/risc-v-assembly.md)
 
