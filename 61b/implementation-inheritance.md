@@ -31,7 +31,7 @@ public class Steven extends BaldMan {
     @Override
     public void applyRogaine() {
         super.applyRogaine(); // Do everything the original method did...
-        Sysmte.out.println("Steego"); // But also print this.
+        System.out.println("Steego"); // But also print this.
     }
 }
 ```

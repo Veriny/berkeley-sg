@@ -64,10 +64,12 @@
 * [Divide and Conquer](170/divide-and-conquer.md)
 * [Fast Fourier Transform](170/fast-fourier-transform.md)
 * [Graphs](170/graphs.md)
+* [Greedy](170/greedy.md)
 
 ## 61C
 
 * [Pointers and Memory](61c/pointers-and-memory.md)
 * [Floating Point](61c/floating-point.md)
+* [Compliation, Assembly, Linking, Loading](61c/compliation-assembly-linking-loading.md)
 * [RISC-V, Assembly](61c/risc-v-assembly.md)
 
