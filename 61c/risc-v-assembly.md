@@ -102,3 +102,7 @@ When the callee returns, it needs to know which registers are still safe. Saved 
 
 Before the call, our stack pointer is at some location. During our call, our stack pointer moves downwards, creating space, if needed for the return address, the argument registers, saved registers, and local variables.
 
+{% hint style="info" %}
+In the case that your stack pointer moves, it is better use the frame pointer as a point of reference.
+{% endhint %}
+
