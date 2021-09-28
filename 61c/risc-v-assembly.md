@@ -58,5 +58,47 @@ The _if-_statement instruction is `beq reg1, reg2, L1` — this stands for branc
 
 A branch is a change in control flow. Conditional branches are as described before. There are also less than or equal to,  `blt` and `bge` respectively. There are also unsigned versions, `bltu` and `bgeu`.
 
-We can also branch unconditionally, using `j`. You can also use `Exit` to leave a block.
+We can also branch unconditionally, using `j`. 
+
+Labels are blocks of RISC-V code that can be jumped to with `j.`
+
+## Logical Operators
+
+`and`, `or`, `xor,` `sll, srl` represent the logical operators of RISC-V. As usual, there are always two variants, register versions and immediate versions.
+
+Note that there is no `not` operator — simply `xor` with 11111111 will work.
+
+### Logical Shifting:
+
+For shifting left, shift the bits to the left, they fall of the end, and we insert zeroes on the right.
+
+### Arithmetic Shifting
+
+For shifting to the right, move n bits to the rightr and insert higher order sign bit into empty bits.
+
+## Functions
+
+There are a few steps to calling a function in RISC-V.
+
+* Put the arguments in a palce where the function can access them. 
+* Transfer control to the function
+* Allocate storage and resourcesn needed for the function
+* Perform the functions task
+* Store teh returne value, rekease local storage \(stack\), and restore any registers used.
+
+We want ton use registers because registers are faster than memory. We have
+
+* `a0-a7` eight argument registers used to pass parameters and two return values `a0-a1`.
+* `ra` is the return address register to return the the point of the origin.
+* `s0-s1` and `s2-s11` — saved registers
+
+Functions are invoked using `jal` and functions are returned using `jr.` 
+
+### Caller v.s. Callee
+
+When the callee returns, it needs to know which registers are still safe. Saved registers are saved in `s0 - s11`, and temporary registers `a0-a7, ra, t0-t6` are not preserved across function calls.
+
+## Allocating Space on Stack
+
+Before the call, our stack pointer is at some location. During our call, our stack pointer moves downwards, creating space, if needed for the return address, the argument registers, saved registers, and local variables.
 

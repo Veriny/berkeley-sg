@@ -68,5 +68,6 @@
 ## 61C
 
 * [Pointers and Memory](61c/pointers-and-memory.md)
+* [Floating Point](61c/floating-point.md)
 * [RISC-V, Assembly](61c/risc-v-assembly.md)
 
