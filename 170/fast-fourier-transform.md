@@ -87,7 +87,7 @@ FFT(A, omega):
     # 2 omega, an nth root of unity.
     # We want to output A(omega) ... A(omega^{n - 1}) so we can use 
     # lagrange interpolation to find the original polynomial
-    if (omega - 1):
+    if (omega = 1):
         return A(1)
     even_pol, odd_pol = split(A) #Splits into odd/even pwrs
     even_results = FFT(even_pol, omega^2) #Refer to the diagram
