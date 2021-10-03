@@ -10,3 +10,7 @@ Suppose you have an alphabet $$\Sigma$$, and a text that use characters that com
 
 In order to encode our string in such a way that it is not ambiguous, we can just encode it such that no character's encoding is a prefix of any other character's encoding.
 
+## Union Find
+
+
+
